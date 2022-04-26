@@ -1,0 +1,59 @@
+<html>
+
+<head>
+
+</head>
+
+
+
+<body>
+
+    <div style="display: flex; align-items: center; justify-content: center;
+                width: 100vw; height: 100vh;">
+
+        <div>
+
+            <div id="initial-info">
+
+                <h1>Início</h1>
+
+                <label for="qtd-litros">Quantia de litros:</label> <br>
+                <input type="number" name="qtd-litros" id="qtd-tanque" min="0">
+
+                <br> <br>
+
+                <label for="valor">Valor por litro:</label> <br>
+                <input type="number" name="valor-litro" id="valor-litro" min="0">
+
+                <br> <br>
+
+                <button id="submit-initial" type="submit">Enviar</button>
+            </div>
+
+            <div id="vendas" style="display:none">
+
+                <h1>Vendas</h1>
+                <label for="qtd-litros">Quantia vendida:</label> <br>
+                <input type="number" id="qtd-litros" min="0">
+
+                <br> <br>
+
+                <button id="submit-vendas" type="submit">Enviar</button>
+                <span id="valor-pagar"></span>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="Q2.js"></script>
+
+</body>
+
+
+
+
+
+</html>
